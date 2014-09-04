@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(&lt;#paramName#&gt;)&lt;#paramName#&gt;Raw {
+    return (&lt;#paramName#&gt;)[[self &lt;#paramName#&gt;] intValue];
+}
+
+-(void)set&lt;#paramName#&gt;Raw:(&lt;#paramName#&gt;)&lt;#paramName#&gt; {
+    [self set&lt;#paramName#&gt;:[NSNumber numberWithInt:&lt;#paramName#&gt;]];
+}
+
++(NSSet *)keyPathsForValuesAffecting&lt;#paramName#&gt;Raw {
+    return [NSSet setWithObject:@"&lt;#paramName#&gt;"];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7A4C28EC-9013-4B9A-901A-C66537F89C09</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CoreDataTypeDefSetterGetter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
